@@ -5,6 +5,13 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PublishSingleFile>true</PublishSingleFile>
+    <RuntimeIdentifier Condition=" '$(RuntimeIdentifier)' == '' ">win-x64</RuntimeIdentifier>
+    <SelfContained>true</SelfContained>
+    <Version Condition=" '$(BUILD_BUILDNUMBER)' == '' ">1.0.0-beta1</Version>
+    <Version Condition=" '$(BUILD_BUILDNUMBER)' != '' ">$(BUILD_BUILDNUMBER)</Version>
+    <PublishTrimmed>true</PublishTrimmed>
+    <PublishReadyToRun>true</PublishReadyToRun>
   </PropertyGroup>
 
 </Project>

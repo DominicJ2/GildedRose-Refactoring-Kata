@@ -1,0 +1,1 @@
+call dotnet restore "%~dp0\GildedRose.sln"
