@@ -12,7 +12,7 @@ I use this kata as part of my work as a technical coach. I wrote a lot about the
 
 ## How to use this Kata
 
-The simplest way is to just clone the code and start hacking away improving the design. You'll want to look at the ["Gilded Rose Requirements"](https://github.com/emilybache/GildedRose-Refactoring-Kata/tree/master/GildedRoseRequirements.txt) which explains what the code is for. I strongly advise you that you'll also need some tests if you want to make sure you don't break the code while you refactor.
+The simplest way is to just clone the code and start hacking away improving the design. You'll want to look at the ["Gilded Rose Requirements"](GildedRoseRequirements.txt) which explains what the code is for. I strongly advise you that you'll also need some tests if you want to make sure you don't break the code while you refactor.
 
 You could write some unit tests yourself, using the requirements to identify suitable test cases. I've provided a failing unit test in a popular test framework as a starting point for most languages.
 
@@ -35,11 +35,11 @@ Whichever testing approach you choose, the idea of the exercise is to do some de
 
 ## Text-Based Approval Testing
 
-This code comes with comprehensive tests that use this approach. For information about how to run them, see the [texttests README](https://github.com/emilybache/GildedRose-Refactoring-Kata/tree/master/texttests)
+This code comes with comprehensive tests that use this approach. For information about how to run them, see the [texttests README](./texttests/README.md)
 
 ## Translating this code
 
-More translations are most welcome! I'm very open for pull requests that translate the starting position into additional languages. 
+More translations are most welcome! I'm very open for pull requests that translate the starting position into additional languages.
 
 Please note a translation should ideally include:
 
@@ -53,6 +53,6 @@ If your programming language doesn't have an easy way to add a command-line inte
 
 ## Better Code Hub
 
-I analysed this repo according to the clean code standards on [Better Code Hub](https://bettercodehub.com) just to get an independent opinion of how bad the code is. Perhaps unsurprisingly, the compliance score is low!
+I analyzed this repo according to the clean code standards on [Better Code Hub](https://bettercodehub.com) just to get an independent opinion of how bad the code is. Perhaps unsurprisingly, the compliance score is low!
 
-[![BCH compliance](https://bettercodehub.com/edge/badge/emilybache/GildedRose-Refactoring-Kata?branch=master)](https://bettercodehub.com/) 
+[![BCH compliance](https://bettercodehub.com/edge/badge/emilybache/GildedRose-Refactoring-Kata?branch=master)](https://bettercodehub.com/)
